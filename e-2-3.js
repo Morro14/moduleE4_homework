@@ -14,7 +14,18 @@ switch (typeof n) {
     case "string":
         console.log("This is a string");
         break;
-    case "None":
-        console.log("This is a None-type");
+    case "NaN":
+        console.log("This is a NaN-type");
         break;
 }
+
+
+let str = prompt("Type in text to reverse it:");
+let splitStr = str.split("");
+let reverseArray = splitStr.reverse();
+let joinArray = reverseArray.join("");
+console.log(joinArray)
+
+x = Math.floor(Math.random() * 101)
+
+
